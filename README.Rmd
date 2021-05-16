@@ -1,0 +1,30 @@
+---
+title: "README"
+author: "Safa El Azrak"
+date: "18/02/2021"
+output: html_document
+---
+
+# DESCRIPTION
+
+
+This repository contains an exploratory data analysis of the AirBnB data from paris.
+
+The main files present here are:
+
+- **Rmarkdown_ELAZRAK_SAFA.html:** This is the HTML ouptput of the R markdown.
+
+- **ShinyDashboard_ELAZRAK_SAFA.R:** This is a Shiny App from which you can explore the data : you have to change the path to load the 'Airbnb Data' to the one on your computer.
+
+- **wwww :** folder that contains a image of Paris used in the Shiny App; please leave the file with the 'ShinyDashboard_ELAZRAK_SAFA.R' in the same location. (Please make sure you unzipped the whole folder for the image to display correctly on the Dashboard)
+
+All the analysis is extensively described in the `Rmarkdown_ELAZRAK_SAFA.html` file so feel free to go through it.
+
+
+
+This project has been ran using the following packages and R libraries: 
+
+```{r echo=TRUE}
+sessionInfo()
+```
+
